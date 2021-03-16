@@ -1,0 +1,24 @@
+This is a comprehensive character generator for Dungeons and Dragons 5th Edition
+
+The main file is in scr/com.compay/Main.java when this file is executed a random character will be generated and displayed in text form.
+
+When the program is run the first option that appears will be the option to customize, selecting yes will first allow you to choose if you would like an NPC,
+then you will be able to select you race and class followed by your level. The main difference with NPCs is that they have slightly worse stats.
+
+After these options are chosen your character will be generated.
+
+If you choose not to customize, you will simply be asked to choose a level then the rest of the process will be randomized (you won't get an NPC with this option).
+
+The program will generate a fully random name, background, race and class (if not already chosen).
+
+Based on these your speed, equipment, proficiency bonus and gold will be displayed.
+
+You will also be given random stats that are suited to your class, the corresponding bonus will also be displayed.
+
+The program also displays your features (from both race and class), hit points, hit dice, armor class, known languages, and your available spell slots.
+
+I am currently working on the spell selection process, it still has a couple bugs, but its mostly functional. It will give you a random selection of spells
+from your class based on your level and features.
+
+Eventually this program will incorporate a GUI to cleanly display all the generated information.
+
